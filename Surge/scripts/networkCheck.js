@@ -1,7 +1,7 @@
 /*
  * Surge 网络详情面板
  * @Nebulosa-Cat
- * 详情请见 README
+ * 个人修改自用
  */
 const { wifi, v4, v6 } = $network;
 
