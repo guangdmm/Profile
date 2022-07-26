@@ -57,7 +57,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
   SG:
-    filter: 狮|新|SG|(?i)Singapore
+    filter: 狮|新|🇸🇬｜SG|(?i)Singapore
     type: file
     path: ./all.yaml
     health-check:
