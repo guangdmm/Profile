@@ -95,6 +95,7 @@ proxy-groups:
       - 日本节点
       - 狮城节点
       - 美国节点
+      - 其它节点
 
   - name: 国内网站
     type: select
@@ -109,6 +110,7 @@ proxy-groups:
       - 日本节点
       - 狮城节点
       - 美国节点
+      - 其它节点
 
 
   - name: 苹果服务
@@ -247,6 +249,13 @@ proxy-groups:
     use:
       - All
     filter: (?=.*(美|🇺🇸|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$
+    
+  - name: 其它节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+    use:
+      - All
+    filter: ((?!香港|HK|Hong Kong|台湾|TW|TaiWan|新加坡|SG|Singapore|日本|JP|Japan|美国|US|States|American|Music).)*$
 
 rule-providers:
 
