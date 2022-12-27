@@ -1,0 +1,12 @@
+#!name=Z 555影视
+#!desc=去广告 2022.12.8
+
+[URL Rewrite]
+
+#横幅广告
+^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
+#555影视 图片资源
+^https:\/\/vpic\.cms\.qq\.com\/nj_vpic - reject
+
+[MITM]
+hostname = %APPEND% vip7.fzwdyy.cn:8083, vpic.cms.qq.com
