@@ -1,3 +1,6 @@
+#!name= 𝙒𝘼𝙍𝙋 𝙄𝙣𝙛𝙤
+#!desc= 𝙒𝘼𝙍𝙋
+
 [Panel]
 ☁ WARP Panel = title="☁ 𝙒𝘼𝙍𝙋 𝙄𝙣𝙛𝙤", icon="lock.icloud.fill", script-name=☁ WARP Panel
 
