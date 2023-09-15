@@ -1,0 +1,8 @@
+#!name=易截图2 去水印解锁
+#!desc=易截图2 去水印解锁
+
+[Script]
+易截图2解锁= type=http-response,pattern=^https?://(jietu6|1jietu).com/apiv2/user ,requires-body=1,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js, argument=("group_id")\s?:\s?"(.+?)"->$1:"3"
+
+[MITM]
+hostname= %APPEND% jietu6.com, 1jietu.com
