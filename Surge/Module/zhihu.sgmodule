@@ -5,7 +5,7 @@
 
 [URL Rewrite]
 ^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
-# 其他服务器推送配置
+# 其他,服务器推送配置
 ^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
 ^https:\/\/link\.zhihu\.com\/\?target=(https?)?(%3A|:)?(\/\/|%2F%2F)?(.*?)(&source.*)?$ http://$4 302
 ^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
