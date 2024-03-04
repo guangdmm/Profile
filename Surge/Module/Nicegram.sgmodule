@@ -1,0 +1,9 @@
+#!name=Nicegram
+#!desc=VIP一次性解锁
+
+[Script]
+# > Nicegram☆解锁会员权限（2024-02-24）@ddgksf2013
+NicegramProCrack = type=http-response, pattern=^https?:\/\/nicegram\.cloud\/api\/v\d\/(ai-assistant\/purchase-list|user\/info|telegram\/auth), script-path=https://github.com/ddgksf2013/MoYu/raw/master/NicegramProCrack.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% nicegram.cloud
