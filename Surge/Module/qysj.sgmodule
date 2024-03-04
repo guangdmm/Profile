@@ -1,0 +1,9 @@
+#!name=千亦视界
+#!desc=VIP解锁
+
+[Script]
+# > 千亦视界 解锁永久vip
+qysj = type=http-response, pattern=^https?:\/\/app.thwlqy.com\/(login\/login\/sign|login\/login\/veifys).html.*$, script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/qysj.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% app.thwlqy.com
