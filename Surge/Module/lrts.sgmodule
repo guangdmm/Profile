@@ -1,0 +1,9 @@
+#!name=懒人听书
+#!desc=解锁VIP(非一次性解锁)
+
+[Script]
+# > 懒人听书vip
+lrts = type=http-response, pattern=^https?:\/\/(shapi|gzapi).mting.info\/yyting\/(usercenter\/ThirdPartyLogin|userclient\/ClientGetUserInfo).action, script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/lrts.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% gzapi.mting.info, shapi.mting.info
