@@ -1,0 +1,12 @@
+#!name=酷我畅听
+#!desc=酷我畅听全功能解锁脚本
+#!author=影子
+#!icon=https://file.napi.ltd/Static/Image/KWCT.png
+#!homepage=https://napi.ltd
+#!date=2024-03-02
+
+[Script]
+酷我畅听 = type=http-response, pattern=^(?!.*img).*?kuwo\.cn/(v2/api/(user/info|advert/myPage)|(audioApi/)?a\.p|EcomResourceServer), script-path=https://napi.ltd/script/BackUP/KWCT.js, requires-body=true, timeout=60
+
+[MITM]
+hostname = %APPEND% *.kuwo.cn
