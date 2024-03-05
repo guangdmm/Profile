@@ -3,7 +3,12 @@
 #!author = RuCu6
 #!update = 2023-09-05 13:35
 
+# 🔗 模块链接
+#SUBSCRIBED http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet/_end_/qx_RuCu6_xiaohongshu.sgmodule?n=QX%20%E5%B0%8F%E7%BA%A2%E4%B9%A6+RuCu6&type=qx-rewrite&target=surge-module
+
+
 [Script]
+
 # 详情页,小部件
 xiaohongshu_8 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, timeout=60, script-update-interval=0
 
