@@ -1,5 +1,7 @@
 #!name=网络速率
-#!desc=默认 1MB
+#!desc=节点测速
+#!author=VirgilClyne & R·E
+#!category=G.Y.S
 
 [Panel]
 # > 网络速率
