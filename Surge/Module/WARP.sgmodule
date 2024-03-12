@@ -1,11 +1,12 @@
-#!name=WARP
-#!desc=Update-2023.2.20
-#!system=ios
+#!name=☁️ Cloudflare: 1️⃣ 1.1.1.1 with WARP
+#!desc=WARP检测面板与节点提取
+#!category=个人自用
+#!arguments=title:☁ 𝙒𝘼𝙍𝙋 𝙄𝙣𝙛𝙤,icon:lock.icloud.fill,icon-color:#f48220
+#!arguments-desc=title: [面板]标题\nicon: [面板]图标\nicon-color: [面板]图标颜色
 
 [Panel]
 # > ☁️ WARP Panel
-☁️ WARP Panel = title="☁️ 𝙒𝘼𝙍𝙋 𝙄𝙣𝙛𝙤", icon="lock.icloud.fill", script-name=☁️ WARP Panel
-
+☁ WARP Panel = title="{{{title}}}", icon="{{{icon}}}", "icon-color": "{{{icon-color}}}", script-name=☁ WARP Panel
 [Script]
-# > WARP Panel
-☁️ WARP Panel = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/Cloudflare.1.1.1.1.panel.js
+# WARP Panel
+#!PROFILE-VERSION-REQUIRED 10 ☁ WARP Panel = type=generic, timeout=10, script-path=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.panel.js
