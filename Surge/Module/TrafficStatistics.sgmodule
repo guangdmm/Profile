@@ -1,0 +1,11 @@
+#!name=流量统计
+#!desc=流量使用详情
+#!category=G.Y.S
+
+[Panel]
+# > 流量统计
+TrafficStatistics = script-name=TrafficStatistics,update-interval=1
+[Script]
+# > 流量统计
+TrafficStatistics = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js,argument=icon=arrow.up.arrow.down&color=#5A9AF9
+# > ---------------------------------
